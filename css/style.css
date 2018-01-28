@@ -1,0 +1,433 @@
+/* font-family: "UbuntuRegular"; */
+@font-face {
+    font-family: "UbuntuRegular";
+    src: url("../fonts/UbuntuRegular/UbuntuRegular.eot");
+    src: url("../fonts/UbuntuRegular/UbuntuRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuRegular/UbuntuRegular.woff") format("woff"),
+    url("../fonts/UbuntuRegular/UbuntuRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuBold"; */
+@font-face {
+    font-family: "UbuntuBold";
+    src: url("../fonts/UbuntuBold/UbuntuBold.eot");
+    src: url("../fonts/UbuntuBold/UbuntuBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuBold/UbuntuBold.woff") format("woff"),
+    url("../fonts/UbuntuBold/UbuntuBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuItalic"; */
+@font-face {
+    font-family: "UbuntuItalic";
+    src: url("../fonts/UbuntuItalic/UbuntuItalic.eot");
+    src: url("../fonts/UbuntuItalic/UbuntuItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuItalic/UbuntuItalic.woff") format("woff"),
+    url("../fonts/UbuntuItalic/UbuntuItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuLight"; */
+@font-face {
+    font-family: "UbuntuLight";
+    src: url("../fonts/UbuntuLight/UbuntuLight.eot");
+    src: url("../fonts/UbuntuLight/UbuntuLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuLight/UbuntuLight.woff") format("woff"),
+    url("../fonts/UbuntuLight/UbuntuLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuLightItalic"; */
+@font-face {
+    font-family: "UbuntuLightItalic";
+    src: url("../fonts/UbuntuLightItalic/UbuntuLightItalic.eot");
+    src: url("../fonts/UbuntuLightItalic/UbuntuLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuLightItalic/UbuntuLightItalic.woff") format("woff"),
+    url("../fonts/UbuntuLightItalic/UbuntuLightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuMedium"; */
+@font-face {
+    font-family: "UbuntuMedium";
+    src: url("../fonts/UbuntuMedium/UbuntuMedium.eot");
+    src: url("../fonts/UbuntuMedium/UbuntuMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuMedium/UbuntuMedium.woff") format("woff"),
+    url("../fonts/UbuntuMedium/UbuntuMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuMediumItalic"; */
+@font-face {
+    font-family: "UbuntuMediumItalic";
+    src: url("../fonts/UbuntuMediumItalic/UbuntuMediumItalic.eot");
+    src: url("../fonts/UbuntuMediumItalic/UbuntuMediumItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuMediumItalic/UbuntuMediumItalic.woff") format("woff"),
+    url("../fonts/UbuntuMediumItalic/UbuntuMediumItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "UbuntuBoldItalic"; */
+@font-face {
+    font-family: "UbuntuBoldItalic";
+    src: url("../fonts/UbuntuBoldItalic/UbuntuBoldItalic.eot");
+    src: url("../fonts/UbuntuBoldItalic/UbuntuBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UbuntuBoldItalic/UbuntuBoldItalic.woff") format("woff"),
+    url("../fonts/UbuntuBoldItalic/UbuntuBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'pfdin';
+    src: url('../fonts/pfdin/pfdintextcomppro-medium-webfont.eot');
+    src: url('../fonts/pfdin/pfdintextcomppro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfdin/pfdintextcomppro-medium-webfont.woff') format('woff'),
+         url('../fonts/pfdin/pfdintextcomppro-medium-webfont.ttf') format('truetype'),
+         url('../fonts/pfdin/pfdintextcomppro-medium-webfont.svg#pf_din_text_comp_promedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               /* обнуляем отступы и убираем бордюры */
+	vertical-align: baseline;          /* приводим все к одной базовой линии */
+	background: transparent;      /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+	font-size: 100%;                     /* размер шрифта всем одинаковый */
+}
+a {                                      	     /* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline:none;
+}
+table {						/* устраняем отступы между ячейками таблицы */
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;			/* возвращаем привычное вертикальное выравнивание */
+} 
+input, select, button, textarea {
+	margin: 0; 				/* убираем отступы по умолчанию для элементов форм (в частности для checkbox и radio) */
+	font-size: 100%; 			/* делаем размер шрифтов везде одинаковым */
+	outline: none;
+}
+input[type="text"], input[type="password"], textarea {
+	padding: 0; 				/* убираем внутренние отступы для текстовых полей */
+}
+input[type="checkbox"] { 		/* вертикальное выравнивание чекбоксов и радиобатонов относительно меток */
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	 list-style:none;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- базовые настройки ---------*/
+html {
+	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+	background: #141318; /* Old browsers */
+}
+body {
+	background: url(../images/bg-body.png) center top repeat-y;
+	color: #fff;
+	text-align: left;
+	font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
+	min-height:100%;
+	font-family:UbuntuRegular;
+}
+a, a:visited { /* порядок правил для ссылок имеет значение */
+	color: #fdf208;
+	text-decoration: none;
+}
+a:hover {
+	color: #fdf208;
+	text-decoration:underline;
+}
+a:focus, a:active {
+	color: #fdf208;
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+img{
+	max-width:100%;
+}
+.clr{
+	clear:both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* --------------- /базовые настройки ---------*/
+
+.karkas{
+	width:1020px; margin:0 auto;
+}
+header{
+	padding:0 0 25px 0; overflow:hidden;
+}
+.btsrp{
+	float:right;
+}
+.name-course{
+	float:left; margin:40px 0 0 33px;
+}
+
+.menu{
+	margin-bottom:30px; background:#a92122; border-radius: 5px;
+}
+.menu ul{
+	overflow:hidden; list-style:none; font-family:pfdin; text-transform:uppercase;
+}
+.menu ul li{
+	float:left; padding:20px 33px;
+}
+.menu ul li a{
+	color:#fff; text-decoration:none; font-size:1em;
+}
+.menu ul li a:hover{
+	text-decoration:underline;
+}
+
+.disc-main{
+	margin-bottom:40px;
+}
+
+.part-main{
+}
+.part-block{
+	float:left; margin-left:15px; background:url(../images/shadow-part.png) center bottom no-repeat; padding-bottom:40px;
+}
+.part-block:first-child{
+	margin-left:0;
+}
+.bonus-block{
+	float:left; margin-left:15px; background:url(../images/shadow-part.png) center bottom no-repeat; padding-bottom:40px; margin-top:-20px;
+}
+.bonus-block:first-child, .bonus-block:nth-child(4){
+	margin-left:0;
+}
+
+.razdel-croshki{
+	font-family:UbuntuLight; font-size:0.88em; padding:0 0 0 80px; margin-bottom:25px;
+}
+
+.content-disc-main{
+	margin-bottom:10px;
+}
+.razdel-name h2{
+	font-family:UbuntuLight; font-size:1.75em; margin:0 0 5px 50px; text-transform:uppercase;
+}
+.razdel-name h1{
+	font-family:UbuntuMedium; font-size:1.75em; margin:0 0 20px 50px; text-transform:uppercase;
+}
+.content-part1-lessons{
+	background:#4ca6cd; border-radius: 10px; padding: 40px 80px; margin-bottom:30px;
+}
+
+.content-part2-lessons{
+	background:#d6962a; border-radius: 10px; padding: 40px 80px; margin-bottom:30px;
+}
+
+.content-part3-lessons{
+	background:#7ea22e; border-radius: 10px; padding: 40px 80px; margin-bottom:30px;
+}
+
+.content-bonus1-lessons{
+	background:#4d2a25; border-radius: 10px; padding: 40px 80px; margin-bottom:30px;
+}
+
+.rightstolb{
+	float:right;
+}
+.leftstolb{
+	float:left;
+}
+
+.content-disc-lessons-head{
+	overflow:hidden; margin-bottom:30px;
+}
+
+.content-disc-lessons-head img{
+	float:left; margin:0 30px 0 0;
+}
+.content-disc-lessons-head h3{
+	font-family: "UbuntuLight"; font-size:1.275em; margin:10px 0 0 0;  padding-right:30px; color:#ffea03;
+}
+.content-disc-lessons-head h2{
+	font-family: "UbuntuMedium"; font-size:1.275em; padding-right:30px;
+}
+
+.content-disc-lessons-in p{
+	padding-bottom:20px;
+}
+.content-disc-lessons-in p span{
+	padding-right:0;
+}
+.content-disc-lessons-in p a{
+	color:#fff;
+}
+.content-disc-lessons-in p img{
+	margin-left:10px; vertical-align:middle;
+}
+.shadow{
+	background:url(../images/shadow.png) center top; height:43px;
+}
+.shadow-small{
+	background:url(../images/shadow-small.png) center top; height:37px;
+}
+
+.codec{
+	color: #ffea00;
+    font-family: "pfdin";
+    font-size: 1em;
+    margin: 20px 0 0;
+    text-transform: uppercase;
+}
+
+.content-disc-lessons-left-wrp{
+	float:left; width:48.5%;
+}
+.content-disc-lessons-left{
+	background:#3e1495; padding:20px 0 20px 30px;
+}
+.content-disc-lessons-right-wrp{
+	float:right; width:48.5%;
+}
+.content-disc-lessons-right{
+	background:#3e1495; padding:20px 0 20px 30px;
+}
+
+.krosh{
+	margin-bottom:40px;
+}
+.krosh p{
+	font-size:0.75em;
+}
+.krosh p img{
+	vertical-align:middle;
+}
+.krosh p span{
+	font-family:AgoraSansProThin; font-size:2.25em;
+}
+.krosh p strong{
+	font-family:AgoraSansProRegular; font-size:2.25em;
+}
+.krosh p a{
+	color:#fd5441; text-decoration:none;
+}
+.krosh p a:hover{
+	text-decoration:underline;
+}
+.lessonlist1{
+	font-size:1em; color:#ed4f3e; font-weight:bold; padding:0 0 40px 0; margin-bottom:30px;
+}
+	.lesson-name-part1{
+		width:85%; margin:0 auto 20px auto;
+	}
+	.lesson-name{
+		white-space:nowrap; line-height:1;
+	}
+		.lesson-name a{
+			color:#fff; font-weight:normal; text-decoration:none;
+		}
+		.lesson-name a:hover{
+			text-decoration:underline;
+		}
+	.dot1{
+		background:url(../images/dot1.png) repeat-x center; width:90%;
+	}
+	.dopmat{
+		width:34px;
+	}
+	
+	
+.imgfloatleft{
+	float:left;
+}
+.imgfloatright{
+	float:right;
+}
+.ftr-wrapp{
+	max-width:1440px; margin:0 auto; background:rgba(0,0,0,0.2);
+}
+.footer-main{ 
+	width:990px; font-family:UbuntuLight;  margin:0 auto; padding:30px 0;
+}
+	.logo-foot{
+		float:left;
+	}
+	.content-foot{
+		float:left; font-size:0.75em;
+	}
+	.content-foot p{
+		float:left; background:url(../images/d1-marker-foot.png) left center no-repeat; padding:0 0 0 37px; margin:0 0 0 37px;
+	}
+	
+.lessonprat1vid{
+	background:url(../images/part1vid.png) no-repeat left top; padding:15px 30px 35px 30px; margin-bottom:30px;
+}
+	.video-header{
+		margin:0 0 20px 0; font-size:1em; font-family:"UbuntuRegular";
+	}
+		.video-header p{
+			float:left; color:#d0adef;
+		}
+			.video-header p span{
+				color:#fff;
+			}
+		.video-header img{
+			float:right; margin-left:10px;
+		}
+		.video-block{
+			margin:0 auto 20px auto; width:940px;
+		}
+	.video-footer p{
+		font-size:1em; font-family:"UbuntuRegular";
+	}		
+	.video-footer p img{
+		vertical-align:middle; margin:0 10px;
+	}
+	.video-footer p a{
+		color:#fff; text-decoration:none;
+	}
+	.video-footer p a:hover{
+		text-decoration:underline;
+	}
+	.video-footer-left{
+		float:left;
+	}
+	.video-footer-right{
+		float:right;
+	}
+	.video-footer-center{
+		text-align:center;
+	}	
